@@ -1,0 +1,569 @@
+/* HTML */
+html, body {
+    width: 100%;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    overflow-x: initial !important; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 400;
+    text-align: center;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #252B42;
+}
+
+hr{
+    position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 7%;
+    top: 1378.91px;
+
+    border: 3px solid #E4E4E4;
+}
+
+/* NavBar */
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+    font-weight: bold;
+}
+
+.navbar--list {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* color: #252B42; */
+    
+}
+
+.nav-item{
+    padding: 0 3.125rem;
+}
+
+.homeButton{
+    color: #FA4A0C;
+}
+
+/* Hero Image */
+.title--container{
+    position: relative;
+}
+
+.mobilebg{
+    display: none;
+}
+.hero-image{
+    /* position: relative; */
+    width: 100%;
+}
+
+/* Headings */
+.title--heading{
+    text-align: center;
+    color: white;
+}
+
+.app--heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 12%;
+    width: 100%
+}
+
+.main--heading{
+    font-family: "Poppins";
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 80px;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    line-height: 5rem;
+    top: 20%;
+    padding: 0 20%;
+}
+
+.download--heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    width: 100%
+    
+}
+
+
+/* Download Buttons */
+.btn{
+    display: inline-block;
+    position:absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gpbutton{
+    cursor: pointer;
+    margin: 0 17px;
+    padding: 16px 0px;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    text-align: center;
+    background-color: #FA4A0C;
+
+    border: none;
+    border-radius: 30px;
+    color: white;
+    width: 236px;
+    height: 68px;
+}
+
+.applebutton{
+    cursor: pointer;
+    margin: 0 17px;
+    padding: 16px 0px;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-align: center;
+    background-color: transparent;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    color: white;
+    width: 236px;
+    height: 68px;
+}
+
+
+
+/* Title Mobile Mockups */
+.mobile-image1{
+    position: absolute;
+    transform: translate(-65%, -35%);
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+}
+
+.mobile-image2{
+    position: absolute;
+    transform: translate(-10%, -15%);
+}
+
+/* Instructions */
+.work--heading{
+    font-family: "Poppins";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 1451px;
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 2.25rem;
+    color:#252B42
+}
+
+#AppWorking{
+    margin-top: 650px ;
+}
+
+.instruction--page{
+    padding: 0 128px;
+}
+
+.instruction{
+    text-align: left;
+    padding: 0 80px;
+}
+
+.instruction--heading{
+    padding: 10px 0px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #FA4A0C;
+}
+ 
+.instruction--main--heading{
+    padding: 10px 0px;
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.instruction--last--heading{
+    padding: 10px 0px;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #737373;
+}
+
+.mobile-image3{
+    padding: 5% 10% 10% 10%;
+}
+
+.first--step{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top:100px;
+    width: 100%;
+}
+
+.mobile-image4{
+    padding: 10%;
+}
+
+.second--step{
+    position: relative;
+    width: 100%;
+    left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mobile-image5{
+    padding: 10%;
+}
+
+.third--step{
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: -100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Footer */
+.footerbg{
+    display: none;
+}
+.footer--container{
+    position: relative;
+}
+
+.footer-image{
+    width: 100%;
+}
+
+.footer--heading{
+    text-align: center;
+    color: white;
+}
+
+.footer--download--heading{
+    font-size: 2rem;
+    font-weight: 700;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    line-height: 2.25rem;
+    top: 15%;
+    width: 100%
+}
+
+.footer--main--heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    line-height: 2.25rem;
+    top: 35%;
+    padding: 0 20%;
+}
+
+.footer--btn{
+    
+    display: inline-block;
+    position:absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer--social{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 50px 80px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0.35;
+    flex-basis: 5rem;
+    color: #FA4A0C;
+    
+}
+
+.copyright--heading{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+/* @media only screen and (max-width: 350px){
+    .mobile-image1{
+        padding: auto;
+    }
+    .mobile-image2{
+        display: none;
+    }
+} */
+
+
+@media only screen and (max-width: 768px) { 
+
+    .logo{
+        height: 35%;
+        width: 35%;
+    }
+    .hero-image{
+        display: none;
+    }
+    .mobilebg{
+        position:relative;
+        display: block;
+        height: 778px;
+        background: #FAFAFA;
+        /* width: 100%; */
+    }
+    .app--heading{
+        /* font-family: "Montserrat", sans-serif;; */
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        color: #737373;
+        top:5%;
+    }
+
+    .main--heading{
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 2.6rem;
+        color: #252B42;
+        padding: 0 7.5%;
+        top: 10%;
+    }
+
+    .download--heading{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #737373;
+        top: 32.5%;
+        padding: 0 5%; 
+    }
+
+    .btn{
+        top:50%;
+        flex-direction: column;  
+    }
+
+    .gpbutton{
+
+        margin: 17px;
+        padding: 16px;
+    }
+
+    .applebutton{
+        border: 1px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+
+    .mobile-image1{
+        height: 75%;
+    }
+    
+    .mobile-image2{
+        height: 45%;
+    }
+    
+    .work--heading{
+        top: 1451px;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    /* hr{
+        width:100%;
+        left:0;
+    } */
+
+    .first--step{
+        flex-direction: column-reverse;
+        top: 0px;
+    }
+
+    .mobile-image4{
+        padding-bottom: 100px;
+    }
+
+    .second--step{
+        flex-direction: column;
+        top:0px;
+    }
+
+    .third--step{
+        flex-direction: column-reverse;
+        top:-50px;
+    }
+    
+    .instruction--page{
+        padding: 0;
+    }
+
+    .instruction{
+        text-align: center;
+        padding: 0;
+    }
+    
+    .instruction--main--heading{
+        padding: 25px;
+    }
+    
+    .instruction--last--heading{
+        padding: 25px 80px;
+        text-align: center;
+    }
+
+    .footerbg{
+        display: block;
+        background: #252B42;
+        height: 700px;
+    }
+
+    .footer-image{
+        display: none;
+    }
+    .footer--download--heading{
+        padding: 10%;
+    }
+    .footer--main--heading{
+        padding: 10%;
+    }
+
+    .footer--btn{
+        flex-direction: column;
+        padding: 10%;
+        top: 75%;
+        /* left: 50%;
+        transform: translate(-50%, -5%); */
+
+    }
+    .footer--social{
+        flex-direction: column;
+    }
+
+    .socials{
+        padding: 0px;
+        
+    }
+
+    .footer-logo{
+        display: none;
+    }
+
+    .social-logo{
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width: 1350px){
+    .app--heading{
+        top: 7.5%;
+        font-size: 1.2rem;
+    }
+
+    .main--heading{
+        top:20%;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        padding: 0 13%;
+    }
+
+    .download--heading{
+        font-size: 1.5rem;
+        top: 55%;
+        padding: 0 5%; 
+    }
+
+    .btn{
+        top:75%;
+    }
+
+    .mobile-image1{
+        transform: translate(-65%, -17.5%);
+    }
+    
+    .mobile-image2{
+        transform: translate(10%, -1%);
+    } 
+
+    .first--step{
+        top: 350px;
+    }
+    .second--step{
+        top: 350px;
+    }
+    .third--step{
+        top: 350px;
+    }
+    .footer--container{
+        top: 500px;
+    }
+    /* .footer--download--heading{
+        top: 50px;
+    }
+    .footer--main--heading{
+        top:100px;
+    }
+    .footer--btn{
+        top: 220px;
+    } */
+    .footer--social{
+        top: 500px;
+    } 
+
+}
